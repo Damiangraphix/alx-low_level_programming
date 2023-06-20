@@ -7,13 +7,14 @@
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
  */
-int print_sign(int n)
+int main(void)
 {
-	if (n > 0)
+	int r;
 
-	{
-		_putchar('+');
-		return (1);
-	} else if (n == 0)
-		_putchar('\n');
+	r = print_sign(98);
+	if (r < 0)
+		r *= -1;
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
