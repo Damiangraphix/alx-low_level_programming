@@ -2,7 +2,7 @@
 
 /**
  * main - check the code that print number
- *
+ *Description: a function that prints an integer
  * Return: Always 0.
  */
 
