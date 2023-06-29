@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse array
- * @n: integer
+ * @n: integer to be added
  * Return: 0
  */
 
